@@ -2,17 +2,20 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Tu Tiên 2D</title>
-
-  <!-- liên kết CSS -->
+  <title>Huyền Vũ Tu Tiên</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="ui-layer">
+    <div class="level-text" id="level-name">Cảnh giới: Luyện Khí</div>
+    <div style="margin-top: 10px;">Linh khí: <span id="spirit-count">0</span></div>
+    <div class="stat-bar">
+      <div id="progress"></div>
+    </div>
+    <div style="font-size: 14px; color: #aaa; margin-top: 5px;">Nhấn <b>SPACE</b> để Đột Phá</div>
+  </div>
 
-  <!-- canvas cho game -->
   <canvas id="game"></canvas>
-
-  <!-- script game -->
   <script src="main.js"></script>
 </body>
 </html>
