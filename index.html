@@ -2,17 +2,25 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Huyền Vũ Tu Tiên</title>
+  <title>Huyền Vũ Tu Tiên - Frame Edition</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="ui-layer">
-    <div class="level-text" id="level-name">Cảnh giới: Luyện Khí</div>
-    <div style="margin-top: 10px;">Linh khí: <span id="spirit-count">0</span></div>
-    <div class="stat-bar">
-      <div id="progress"></div>
+    <div class="header">
+      <div id="level-display">Cảnh giới: Đang khởi tạo...</div>
+      <div id="linh-can-display">Tư chất: Thiên Linh Căn</div>
     </div>
-    <div style="font-size: 14px; color: #aaa; margin-top: 5px;">Nhấn <b>SPACE</b> để Đột Phá</div>
+    
+    <div class="stats">
+      <div class="label">Linh khí: <span id="spirit-count">0</span></div>
+      <div class="stat-bar">
+        <div id="progress"></div>
+      </div>
+      <div id="speed-tag">Tốc độ nạp: +0/s</div>
+    </div>
+
+    <div class="hint">Nhấn <b>SPACE</b> để Đột Phá</div>
   </div>
 
   <canvas id="game"></canvas>
