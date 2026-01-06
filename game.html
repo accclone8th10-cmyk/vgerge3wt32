@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Huyền Vũ Tu Tiên - 2 Chế Độ</title>
+    <title>Huyền Vũ Tu Tiên - Final</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,16 +10,15 @@
         <div id="side-panel" class="glass-panel">
             <div class="panel-header">CÀN KHÔN BẢNG</div>
             <div class="menu-tabs">
-                <button id="btn-toggle-mode" class="active" onclick="toggleMode()">HÀNH TẨU</button>
+                <button id="btn-toggle-mode" onclick="toggleMode()">HÀNH TẨU</button>
             </div>
-            <div id="system-info">
-                <div class="stat-row"><span>Cảnh giới:</span><span id="display-realm" class="gold-text">Luyện Khí</span></div>
+            <div class="stat-container">
+                <p>Cảnh giới: <span id="display-realm" class="gold-text">Luyện Khí</span></p>
                 <div class="bar-bg"><div id="progress-bar" class="bar-fill spirit"></div></div>
-                <div class="stat-row"><span>Máu:</span><span id="hp-text">100/100</span></div>
+                <p>Máu: <span id="hp-text">100/100</span></p>
                 <div class="bar-bg"><div id="hp-bar" class="bar-fill hp"></div></div>
                 <div id="speed-tag" class="speed-indicator">+0/s</div>
             </div>
-            <div class="footer-hint">Space: Đột phá | Click: Chiêu thức</div>
         </div>
     </div>
     <canvas id="game"></canvas>
